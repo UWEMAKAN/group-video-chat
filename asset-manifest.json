@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/group-video-chat/static/css/main.58e0922a.chunk.css",
+    "main.js": "/group-video-chat/static/js/main.9c224544.chunk.js",
+    "main.js.map": "/group-video-chat/static/js/main.9c224544.chunk.js.map",
+    "runtime-main.js": "/group-video-chat/static/js/runtime-main.652fb3e5.js",
+    "runtime-main.js.map": "/group-video-chat/static/js/runtime-main.652fb3e5.js.map",
+    "static/js/2.399c5be7.chunk.js": "/group-video-chat/static/js/2.399c5be7.chunk.js",
+    "static/js/2.399c5be7.chunk.js.map": "/group-video-chat/static/js/2.399c5be7.chunk.js.map",
+    "index.html": "/group-video-chat/index.html",
+    "precache-manifest.a3ab3693b7da29875098eb2997999dac.js": "/group-video-chat/precache-manifest.a3ab3693b7da29875098eb2997999dac.js",
+    "service-worker.js": "/group-video-chat/service-worker.js",
+    "static/css/main.58e0922a.chunk.css.map": "/group-video-chat/static/css/main.58e0922a.chunk.css.map",
+    "static/js/2.399c5be7.chunk.js.LICENSE.txt": "/group-video-chat/static/js/2.399c5be7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.652fb3e5.js",
+    "static/js/2.399c5be7.chunk.js",
+    "static/css/main.58e0922a.chunk.css",
+    "static/js/main.9c224544.chunk.js"
+  ]
+}
