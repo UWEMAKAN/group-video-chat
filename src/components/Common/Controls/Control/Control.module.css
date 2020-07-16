@@ -1,0 +1,18 @@
+.Control {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 20rem;
+  cursor: pointer;
+  outline: none;
+  border: 0 solid transparent;
+}
+
+.Control:hover {
+  background-color: #f7f4f4;
+  outline:  none;
+  box-shadow: none;
+}
+
+.Color {
+  color: #000000b0;
+}

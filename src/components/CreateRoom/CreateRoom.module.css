@@ -1,0 +1,28 @@
+.CreateRoom {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.Button {
+  background-color: steelblue;
+  color: white;
+  padding: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border: 1px solid steelblue;
+  border-radius: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  box-shadow: 0 5px 10px 2px rgba(0,0,0,.4);
+  transition: all .4s;
+  outline: none;
+}
+
+.Button:hover {
+  transform: translate(-50%, -54%);
+  box-shadow: 0px 5px 10px 5px rgba(0,0,0,.4);
+}

@@ -1,0 +1,19 @@
+.Footer {
+  height: 5rem;
+  width: 100vw;
+  background-color: transparent;
+  order: 1;
+  justify-self: flex-end;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Heading {
+  font-weight: 400;
+  color: #000000b0;
+
+  order: 0;
+  align-self: center;
+  margin-left: 5rem;
+}
