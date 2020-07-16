@@ -7,8 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={CreateRoom} />
-        <Route path="/rooms/:roomID" component={ChatRoom} />
+        <Route path={process.env.PUBLIC_URL + '/'} exact component={CreateRoom} />
+        <Route path={process.env.PUBLIC_URL + '/rooms/:roomID'} component={ChatRoom} />
       </Switch>
     </BrowserRouter>
   );
