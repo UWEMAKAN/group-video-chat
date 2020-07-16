@@ -9,7 +9,7 @@ const QuadruplePeersView = (props) => {
     : null;
   return (
     <div className={classes.Quadruple}>
-      <Video videoRef={localVideo} muted={true} />
+      <Video videoRef={localVideo} />
       {videos}
     </div>
   );

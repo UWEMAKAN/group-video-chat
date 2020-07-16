@@ -35,6 +35,7 @@ class ChatRoom extends Component {
     this.connectionStatuses.current = {};
     this.localICECandidates.current = {};
     this.socket.current = io.connect('https://signals-server.herokuapp.com');
+    // this.socket.current = io.connect('http://localhost:8000');
     navigator.mediaDevices
       .getUserMedia({
         video: {
@@ -79,7 +80,6 @@ class ChatRoom extends Component {
     console.log('logging candidate', candidate);
     this.socket.current.emit('candidate', JSON.stringify({ id: response.id, candidate }));
     console.log('candidate emitted');
-    // this.localICECandidates.current[response.id] = {}
   };
 
   onOffer = (offer) => {
@@ -241,12 +241,6 @@ class ChatRoom extends Component {
     }
 
     return (
-      // <>
-      //   <video muted ref={this.localVideo} autoPlay playsInline></video>
-      //   <video muted ref={this.remoteVideo1} autoPlay playsInline></video>
-      //   <video muted ref={this.remoteVideo2} autoPlay playsInline></video>
-      //   <video muted ref={this.remoteVideo3} autoPlay playsInline></video>
-      // </>
       <Window
         localVideo={this.localVideo}
         keys={keys}
